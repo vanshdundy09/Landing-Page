@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+
+.first-box{
+    display: flex;
+    flex-direction: column;
+    background-color: peachpuff;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1200px;
+    flex: 1;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px;
+    gap: 900px;
+}
+
+.content{
+    flex-direction: column;
+    padding: 44px;
+    width: 250px;
+}
+
+.placeholder{
+    background-color: lightgrey;
+    height: 225px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    text-align: center;
+    margin: 0 64px;
+    
+}
+
+.second-box{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    
+    
+}
+
+.information{
+    text-align: center;
+    margin: 24px 0;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: 4px solid aqua;
+    border-radius: 12px;
+}
+
+.all-cards {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+}
+
+.all-cards p  {
+    width: 150px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote{
+    background-color: rgb(19, 88, 148);
+    display: flex;
+    flex-direction: column;
+}
+
+.word{
+    font: light italic;
+    font-size: 36px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 64px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.thor{
+    font-size: 36px;
+    font-family: light Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+    padding-right: 175px;
+}
+
+.lastbox{
+background-color: orange;
+padding: 50px;
+margin: 64px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 720px;
+
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+ 
+.footer{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 24px 0;
+}
+
+
+
